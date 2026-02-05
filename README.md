@@ -40,7 +40,7 @@ To ensure that the data was clean and ready for analysis I created clean SQL tab
 - Creating a derived book_genres_clean view to isolate true genre tags from non-genre tags such as: “owned”, “to-read”, etc.
 
 ## Analysis and SQL Insights
-**Highly Rated and Popular Books**
+## Highly Rated and Popular Books
 
 To ensure that I was only looking at books that were both well-rated and highly read, I analyzed user ratings while applying a minimum threshold of 500 ratings to avoid a small-sample bias (I didn’t want a book that had 5 stars but only 3 reviews). This approach highlights books that maintain a strong average rating while also demonstrating significant reader engagement.
 
@@ -54,7 +54,7 @@ To ensure that I was only looking at books that were both well-rated and highly 
 
 - Business logic to reduce bias
 
- **Average Rating by Genre** 
+ ## Average Rating by Genre 
 
 Using cleaned and filtered data genre tags derived from Goodreads user data, I analyze the average book ratings across seven major genres. Only genres with at least 100 distinct books were included to ensure meaningful comparisons.
 
