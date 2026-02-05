@@ -1,20 +1,21 @@
-Goodreads Book Ratings and Genre Analysis
-Project Overview
+## Goodreads Book Ratings and Genre Analysis
+
+## Project Overview
 
 This project analyzes Goodreads data to explore the relationship between how user ratings vary across different book genres. I used SQL in BigQuery to analyze my data. I cleaned and structured multiple datasets to identify highly-rated and widely read books, as well as rating trends across genres. The goal of this project is to demonstrate practical SQL skills such as data cleaning, joins, aggregations, and analytical reasoning using a real-world dataset.
 
-Research Question
+## Research Question
 
 How does the average rating of books vary by genre?
 
-Data Description
+## Data Description
 
 This dataset is from Kaggle - Goodbooks - 10k
 https://www.kaggle.com/datasets/zygmunt/goodbooks-10k
 
 This dataset contains Goodreads style book metadata, user ratings, and user-generated tags.
 
-Key Tables Used
+## Key Tables Used
 
 books.csv: book metadata (authors, ratings, title)
 
@@ -24,7 +25,7 @@ tags.csv: Tag ID to tag name - tag id = genre
 
 book_tags.csv: relationship between books and tags
 
-Data Cleaning/Prep
+## Data Cleaning/Prep
 
 To ensure that the data was clean and ready for analysis I created clean SQL tables views instead of modifying the raw tables directly. The steps I took were:
 
