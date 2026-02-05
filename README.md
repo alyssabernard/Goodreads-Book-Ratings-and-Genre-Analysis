@@ -39,12 +39,12 @@ To ensure that the data was clean and ready for analysis I created clean SQL tab
 
 - Creating a derived book_genres_clean view to isolate true genre tags from non-genre tags such as: “owned”, “to-read”, etc.
 
-## Analysis and SQL Insights
+## **Analysis and SQL Insights**
 ## Highly Rated and Popular Books
 
 To ensure that I was only looking at books that were both well-rated and highly read, I analyzed user ratings while applying a minimum threshold of 500 ratings to avoid a small-sample bias (I didn’t want a book that had 5 stars but only 3 reviews). This approach highlights books that maintain a strong average rating while also demonstrating significant reader engagement.
 
-## Skills demonstrated:
+**Skills demonstrated:**
 
 - JOINS
 
@@ -64,7 +64,7 @@ Here are the results:
 
 Fantasy books achieved the highest average rating of the genres, followed closely by classics and non-fiction. While fiction accounted for the largest number of books overall, it did not have the highest average rating, suggesting that genre popularity does not always correspond to higher reader ratings.
 
-Skills Demonstrated:
+**Skills Demonstrated:**
 
 - Multiple table JOINS
 
