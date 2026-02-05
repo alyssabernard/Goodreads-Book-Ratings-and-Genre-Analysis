@@ -91,25 +91,25 @@ Skills Demonstrated:
 - GitHub
 
 ## SQL Inquiries
-- [Create cleaned books view](sql/01_Create_Books_Clean.sql)
+- [Create cleaned books view](SQL/01_Create_Books_Clean.sql)
 
-- [Create cleaned ratings view](sql02_Create_Ratings_Clean.sql)
+- [Create cleaned ratings view](SQL/02_Create_Ratings_Clean.sql)
 
-- [Rating distribution view](sql/03_Rating_Distribution.sql)
+- [Rating distribution view](SQL/03_Rating_Distribution.sql)
 
-- [JOIN books and ratings](sql/04_JOIN_Books_and_Rating.sql)
+- [JOIN books and ratings](SQL/04_JOIN_Books_and_Rating.sql)
 
-- [Create cleaned tags view](sql/05_Create_Tags_Clean.sql)
+- [Create cleaned tags view](SQL/05_Create_Tags_Clean.sql)
 
-- [Create cleaned book tags view](sql/06_Book_Tags_Clean.sql)
+- [Create cleaned book tags view](SQL/06_Book_Tags_Clean.sql)
 
-- [Highly rated and popular books view](sql/07_Highly_Rated_and_Popular_Books.sql)
+- [Highly rated and popular books view](SQL/07_Highly_Rated_and_Popular_Books.sql)
 
-- [Create cleaned book genre list view](sql/08_Create_Book_Genres_List_Clean.sql)
+- [Create cleaned book genre list view](SQL/08_Create_Book_Genres_List_Clean.sql)
 
-- [JOIN book tags and Tag ID view](sql/08_Join_Book_Tags_and_Tag_ID.sql)
+- [JOIN book tags and Tag ID view](SQL/08_Join_Book_Tags_and_Tag_ID.sql)
 
-- [Average rating by genre view](sql/09_Avg_Rating_By_Genre.sql)
+- [Average rating by genre view](SQL/09_Avg_Rating_By_Genre.sql)
 
 
 ## About Me
