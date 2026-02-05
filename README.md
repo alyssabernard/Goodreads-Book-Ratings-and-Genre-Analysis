@@ -59,6 +59,8 @@ To ensure that I was only looking at books that were both well-rated and highly 
 Using cleaned and filtered data genre tags derived from Goodreads user data, I analyze the average book ratings across seven major genres. Only genres with at least 100 distinct books were included to ensure meaningful comparisons.
 
 Here are the results:
+<img width="2108" height="598" alt="image" src="https://github.com/user-attachments/assets/0383e7cd-9a8d-456f-80cb-591ee6dc8b6b" />
+
 
 Fantasy books achieved the highest average rating of the genres, followed closely by classics and non-fiction. While fiction accounted for the largest number of books overall, it did not have the highest average rating, suggesting that genre popularity does not always correspond to higher reader ratings.
 
@@ -88,7 +90,18 @@ Skills Demonstrated:
 
 - GitHub
 
-## Repository
+## SQL Inquiries
+[Create cleaned books view](sql/01_Create_Books_Clean.sql)
+[Create cleaned ratings view](sql02_Create_Ratings_Clean.sql)
+[Rating distribution view](sql/03_Rating_Distribution.sql)
+[JOIN books and ratings](sql/04_JOIN_Books_and_Rating.sql)
+[Create cleaned tags view](sql/05_Create_Tags_Clean.sql)
+[Create cleaned book tags view](sql/06_Book_Tags_Clean.sql)
+[Highly rated and popular books view](sql/07_Highly_Rated_and_Popular_Books.sql)
+[Create cleaned book genre list view](sql/08_Create_Book_Genres_List_Clean.sql)
+[JOIN book tags and Tag ID view](sql/08_Join_Book_Tags_and_Tag_ID.sql)
+[Average rating by genre view](sql/09_Avg_Rating_By_Genre.sql)
+
 
 ## About Me
 
