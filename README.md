@@ -74,6 +74,44 @@ Fantasy books achieved the highest average rating of the genres, followed closel
 
 - Analytical interpretation of results
 
+## Visualizations
+Interactive visualizations were created in Tableau Public to validate SQL findings and explore patterns that are difficult to identify through tabular queries alone.
+
+**Average Rating by Genre**
+
+A bar chart comparing average book ratings across major genres (minimum 100 books per genre). This visualization was used to confirm SQL aggregation results and highlight differences in reader ratings by category.
+
+**Techniques used:**
+
+SQL-to-Tableau data validation
+
+Aggregate measures (average ratings)
+
+Category-level comparisons
+
+Popularity vs. Rating
+
+A scatter plot visualizing the relationship between book popularity (ratings count, log-scaled) and average rating. Each point represents a single book, with a trend line added to assess correlation.
+
+**Key findings:**
+
+Book popularity and average rating show a weak positive relationship
+
+Highly popular books tend to cluster around similar ratings
+
+Less popular books exhibit greater variability in quality
+
+**Techniques used:**
+
+Logarithmic scaling for skewed data
+
+Tableau calculated fields and level-of-detail (LOD) expressions
+
+Trend line analysis
+
+View the interactive dashboard:
+[Tableau Public – Goodreads Ratings & Popularity Dashboard](https://public.tableau.com/views/GoodreadsRatingsPopularityDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 ## Key Insights
 
 - Genres with higher niche audiences such as fantasy and classics tend to achieve higher ratings.
