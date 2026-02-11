@@ -93,7 +93,7 @@ Less popular books exhibit more variability in quality.
 
 These visualizations help deepen understanding of reader behavior and engagement on Goodreads.
 
-[Interactive dashboard: Paste your Tableau Public](https://public.tableau.com/views/GoodreadsRatingsPopularityDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Interactive dashboard: Goodreads Ratings vs Popularity](https://public.tableau.com/views/GoodreadsRatingsPopularityDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Key Insights
 
