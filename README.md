@@ -77,40 +77,23 @@ Fantasy books achieved the highest average rating of the genres, followed closel
 ## Visualizations
 Interactive visualizations were created in Tableau Public to validate SQL findings and explore patterns that are difficult to identify through tabular queries alone.
 
-**Average Rating by Genre**
+**Genre Ratings Bar Chart**
 
-A bar chart comparing average book ratings across major genres (minimum 100 books per genre). This visualization was used to confirm SQL aggregation results and highlight differences in reader ratings by category.
+This bar chart compares the average book rating across major genres (minimum 100 books per genre). It confirms SQL results and highlights meaningful differences in how readers rate books across genres. For example, Fantasy and Classics tend to have higher average ratings than broader categories like Fiction.
 
-**Techniques used:**
+**Popularity vs. Rating Scatter Plot**
 
-SQL-to-Tableau data validation
+This scatter plot visualizes the relationship between book popularity (number of ratings on a log scale) and average rating. Each point represents a single book. A trend line provides insight into how popularity relates to rating:
 
-Aggregate measures (average ratings)
+The relationship between popularity and average rating is relatively weak.
 
-Category-level comparisons
+Highly popular books tend to cluster in a moderate rating range.
 
-Popularity vs. Rating
+Less popular books exhibit more variability in quality.
 
-A scatter plot visualizing the relationship between book popularity (ratings count, log-scaled) and average rating. Each point represents a single book, with a trend line added to assess correlation.
+These visualizations help deepen understanding of reader behavior and engagement on Goodreads.
 
-**Key findings:**
-
-Book popularity and average rating show a weak positive relationship
-
-Highly popular books tend to cluster around similar ratings
-
-Less popular books exhibit greater variability in quality
-
-**Techniques used:**
-
-Logarithmic scaling for skewed data
-
-Tableau calculated fields and level-of-detail (LOD) expressions
-
-Trend line analysis
-
-View the interactive dashboard:
-[Tableau Public – Goodreads Ratings & Popularity Dashboard](https://public.tableau.com/views/GoodreadsRatingsPopularityDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Interactive dashboard: Paste your Tableau Public](https://public.tableau.com/views/GoodreadsRatingsPopularityDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Key Insights
 
